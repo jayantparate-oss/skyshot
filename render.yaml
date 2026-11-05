@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sky-sparks
+    runtime: python
+    buildCommand: python -m compileall .
+    startCommand: python server.py
+    envVars:
+      - key: Jayant123
+        generateValue: true
